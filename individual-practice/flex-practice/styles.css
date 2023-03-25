@@ -2,20 +2,3 @@ div {
     background-color: orange;
     display: flex;
 }
-
-ul {
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    margin-right: auto;
-}
-
-.unorderedList li {
-    background-color: rebeccapurple;
-    color:aliceblue;
-    margin: 10px;
-}
-
-.logo {
-    font-family: Arial, Helvetica, sans-serif;
-}
