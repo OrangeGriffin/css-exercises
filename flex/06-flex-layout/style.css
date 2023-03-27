@@ -27,3 +27,33 @@ input {
 }
 
 /*  Solution starts here */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.left-links, .right-links {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.header > ul,
+.footer > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
